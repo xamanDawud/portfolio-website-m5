@@ -1,0 +1,90 @@
+/* google font link  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* shared designed */
+.btn-primary {
+  border-radius: 3px;
+  background-color: #fd6e0a;
+  color: #fff;
+  padding: 10px 7px;
+  border: none;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav h2 {
+  margin-left: 120px;
+  color: #474747;
+}
+.nav ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+nav ul a {
+  text-decoration: none;
+  color: #474747;
+}
+.nav ul {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-right: 120px;
+}
+
+.hire-btn {
+  width: 150;
+  height: 64;
+}
+.logo-highlight {
+  color: #fd6e0a;
+}
+
+.header {
+  background-color: #fff8f3;
+  padding-top: 25px;
+  background-image: url(../images/header_bgg.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.banner img {
+  width: 400px;
+}
+.banner-content {
+  max-width: 500px;
+  padding-left: 120px;
+  margin-top: 80px;
+}
+.banner-greet {
+  color: var #474747;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.banner-name {
+  font-size: 60px;
+  font-weight: 700px;
+  margin-top: 15px;
+}
+.banner-pra {
+  color: #757575;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
