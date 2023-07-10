@@ -11,6 +11,7 @@
   color: #fff;
   padding: 10px 7px;
   border: none;
+  cursor: pointer;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -26,7 +27,7 @@ body {
 }
 .nav ul li {
   list-style: none;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 nav ul a {
   text-decoration: none;
@@ -51,9 +52,10 @@ nav ul a {
 .header {
   background-color: #fff8f3;
   padding-top: 25px;
-  background-image: url(../images/header_bgg.jpg);
+  background-image: url(../images/header_bg.png);
   background-position: bottom right;
   background-repeat: no-repeat;
+  background-size: 40%;
 }
 .banner {
   display: flex;
@@ -62,12 +64,16 @@ nav ul a {
 }
 .banner img {
   width: 400px;
+  margin-top: 40px;
+  padding-right: 50px;
 }
 .banner-content {
   max-width: 500px;
   padding-left: 120px;
   margin-top: 80px;
+  padding-top: 57px;
 }
+
 .banner-greet {
   color: var #474747;
   font-size: 25px;
@@ -77,7 +83,7 @@ nav ul a {
 .banner-name {
   font-size: 60px;
   font-weight: 700px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .banner-pra {
   color: #757575;
@@ -87,4 +93,12 @@ nav ul a {
   line-height: 30px;
   margin-top: 15px;
   margin-bottom: 20px;
+}
+.contact-btn {
+  background-color: #fff8f3;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
